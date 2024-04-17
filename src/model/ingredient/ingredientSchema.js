@@ -12,4 +12,4 @@ const ingredientSchema = new mongoose.Schema({
 
 
 );
-export default mongoose.model("test1", ingredientSchema );
+export default mongoose.model("ingredient", ingredientSchema );

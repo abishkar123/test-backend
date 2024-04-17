@@ -4,7 +4,7 @@ const router = express.Router()
 
 router.post("/ingredient", async (req, res, next)=>{
     try{
-        const{name} = req.body;
+        const{ingredient} = req.body;
  
         const result = await createNewIngredients(req.body)
         
