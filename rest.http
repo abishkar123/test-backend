@@ -1,0 +1,14 @@
+@url= http://localhost:8000/api/v1
+
+### post request
+
+POST {{url}}/ingredient
+Content-type:application/json
+
+{  
+
+"ingredient": "pasta"
+
+
+
+}
