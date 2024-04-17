@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const ingredientSchema = new mongoose.Schema({
     
-    ingredient: { type: String, required: true },
+    name: { type: String, required: true },
     
 },
 
